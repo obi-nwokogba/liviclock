@@ -12,7 +12,8 @@ GREEN SCHEME
 #00150E
 Black
 
-Tints of Shamrock Green #009661
+Tints of Shamrock Green 
+#009661
 #009661
 #33AB81
 #5CBC9A
@@ -24,14 +25,17 @@ Tints of Shamrock Green #009661
 #D5EDE4
 #DDF1E9
 White
-
 */
 
-
-
 body {
-    background-color: #f7f7f7;
-    back;
+    background-color: #444444;
+    color: #DDF1E9;
+    font-family: 'Roboto';
+}
+
+h1 {
+    margin-top: 150px;
+    text-align: center;
 }
 
 button[data-setter] {
@@ -84,7 +88,8 @@ button[data-setter]:hover {
     font-family: 'Roboto';
     font-weight: 100;
     font-size: 65px;
-    color: #F7958E;
+    color: #C2EADE;
+    
 }
 
 #pause {
@@ -134,7 +139,7 @@ button[data-setter]:hover {
 
 .e-c-progress {
     fill: none;
-    stroke: #F7958E;
+    stroke: #A3E0CE;
     stroke-width: 4px;
     transition: stroke-dashoffset 0.7s;
 }
@@ -148,13 +153,6 @@ button[data-setter]:hover {
 #e-pointer {
     transition: transform 0.7s;
 }
-
-h1 {
-    margin-top: 150px;
-    text-align: center;
-}
-
-
 
 #css-script-menu {
     position: absolute;
@@ -192,19 +190,11 @@ h1 {
     text-decoration: none
 }
 
-.css-script-ads {
-    max-width: 728px;
-    height: 90px;
-    float: right
+.content {
+    min-height: calc(100vh - 70px);
 }
 
-.css-script-clear {
-    clear: both;
-    height: 0
-}
-
-@media only screen and (min-width:320px) and (max-width:759px) {
-    .carbon-text {
-        font-size: 14px
-    }
+.footer {
+    height: 50px;
+    background: #2e2e2e;
 }
