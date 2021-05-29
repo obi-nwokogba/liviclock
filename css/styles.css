@@ -1,0 +1,210 @@
+/*
+GREEN SCHEME
+#009661
+#00784E
+#00603E
+#004D32
+#003E28
+#003220
+#00281A
+#002015
+#001A11
+#00150E
+Black
+
+Tints of Shamrock Green #009661
+#009661
+#33AB81
+#5CBC9A
+#7DC9AE
+#97D4BE
+#ACDDCB
+#BDE4D5
+#CAE9DD
+#D5EDE4
+#DDF1E9
+White
+
+*/
+
+
+
+body {
+    background-color: #f7f7f7;
+    back;
+}
+
+button[data-setter] {
+    outline: none;
+    background: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    width: 25px;
+    height: 30px;
+    color: #F7958E;
+    cursor: pointer;
+}
+
+button[data-setter]:hover {
+    opacity: 0.5;
+}
+
+.container {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.setters {
+    position: absolute;
+    left: 85px;
+    top: 75px;
+}
+
+.minutes-set {
+    float: left;
+    margin-right: 28px;
+}
+
+.seconds-set {
+    float: right;
+}
+
+.controlls {
+    position: absolute;
+    left: 75px;
+    top: 105px;
+    text-align: center;
+}
+
+.display-remain-time {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 65px;
+    color: #F7958E;
+}
+
+#pause {
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.play::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 22px solid #F7958E;
+}
+
+.pause::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 15px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 1px;
+    border: 5px solid #F7958E;
+    border-top: none;
+    border-bottom: none;
+}
+
+#pause:hover {
+    opacity: 0.8;
+}
+
+.e-c-base {
+    fill: none;
+    stroke: #B6B6B6;
+    stroke-width: 4px
+}
+
+.e-c-progress {
+    fill: none;
+    stroke: #F7958E;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 0.7s;
+}
+
+.e-c-pointer {
+    fill: #FFF;
+    stroke: #F7958E;
+    stroke-width: 2px;
+}
+
+#e-pointer {
+    transition: transform 0.7s;
+}
+
+h1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+#css-script-menu {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 5px solid #16a1e7;
+    background: #fff;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    z-index: 999999;
+    padding: 10px 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.css-script-center {
+    max-width: 960px;
+    margin: 0 auto
+}
+
+.css-script-center ul {
+    width: 212px;
+    float: left;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.css-script-center a {
+    text-decoration: none
+}
+
+.css-script-ads {
+    max-width: 728px;
+    height: 90px;
+    float: right
+}
+
+.css-script-clear {
+    clear: both;
+    height: 0
+}
+
+@media only screen and (min-width:320px) and (max-width:759px) {
+    .carbon-text {
+        font-size: 14px
+    }
+}
